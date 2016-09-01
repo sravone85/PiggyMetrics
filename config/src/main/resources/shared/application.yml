@@ -20,7 +20,7 @@ eureka:
 security:
   oauth2:
     resource:
-      user-info-uri: http://piggymetrics-auth-service.mybluemix.net/uaa/users/current
+      user-info-uri: http://piggymetrics-authentication-service.mybluemix.net/uaa/users/current
 
 spring:
   rabbitmq:
