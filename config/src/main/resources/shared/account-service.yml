@@ -3,7 +3,7 @@ security:
     client:
       clientId: account-service
       clientSecret: user
-      accessTokenUri: http://piggymetrics-auth-service.mybluemix.net/uaa/oauth/token
+      accessTokenUri: http://piggymetrics-authentication-service.mybluemix.net/uaa/oauth/token
       grant-type: client_credentials
       scope: server
 
