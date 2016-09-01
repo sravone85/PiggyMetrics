@@ -10,7 +10,7 @@ security:
 spring:
   data:
     mongodb:
-      host: statistics-mongodb
+      host: 169.46.154.152
       username: user
       password: user
       database: piggymetrics
