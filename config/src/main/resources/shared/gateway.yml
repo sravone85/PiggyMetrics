@@ -19,7 +19,7 @@ zuul:
   routes:
     auth-service:
         path: /uaa/**
-        url: http://piggymetrics-auth-service.mybluemix.net
+        url: http://piggymetrics-authentication-service.mybluemix.net
         stripPrefix: false
         sensitiveHeaders:
 
