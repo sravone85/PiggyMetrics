@@ -9,6 +9,7 @@ security:
 
 server:
   context-path: /notifications
+  port: 8000
 
 remind:
   cron: 0 0 0 * * *
@@ -26,7 +27,7 @@ backup:
 spring:
   data:
     mongodb:
-      host: notification-mongodb
+      host: 169.46.154.152
       username: user
       password: user
       database: piggymetrics
