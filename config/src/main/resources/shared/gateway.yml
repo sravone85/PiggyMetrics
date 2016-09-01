@@ -41,5 +41,5 @@ zuul:
         stripPrefix: false
         sensitiveHeaders:
 
-server:
-  port: 4000
+#server:
+  #port: 4000
